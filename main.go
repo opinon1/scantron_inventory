@@ -199,7 +199,7 @@ func DecodeDocument(inputImage string) {
 		}
 
 		if key == "" {
-			break
+			continue
 		}
 
 		// Process tens bubble region.
